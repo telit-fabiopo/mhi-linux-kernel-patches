@@ -1,7 +1,7 @@
 From ed835448e26ffb78e38d4453173559d584f2393f Mon Sep 17 00:00:00 2001
 From: Daniele Palmas <dnlplm@gmail.com>
 Date: Thu, 11 Aug 2022 10:18:00 +0200
-Subject: [PATCH 03/19] bus: mhi: add SBL support as initial execution
+Subject: [PATCH 03/26] bus: mhi: add SBL support as initial execution
  environment
 
 Signed-off-by: Daniele Palmas <dnlplm@gmail.com>

@@ -1,7 +1,7 @@
 From 6816df3f581570b399dd96674593ddf543f64f4c Mon Sep 17 00:00:00 2001
 From: Daniele Palmas <dnlplm@gmail.com>
 Date: Fri, 14 Oct 2022 11:25:56 +0200
-Subject: [PATCH 10/19] drivers: bus: mhi: host: fix recovery process when
+Subject: [PATCH 10/26] drivers: bus: mhi: host: fix recovery process when
  modem reboots
 
 It could happen that when the modem reboots it is not immediately

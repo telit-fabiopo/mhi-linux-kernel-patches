@@ -1,7 +1,7 @@
 From db2bd67a0961245a060cbb59848e89d40261a083 Mon Sep 17 00:00:00 2001
 From: Daniele Palmas <dnlplm@gmail.com>
 Date: Thu, 28 Jul 2022 16:07:54 +0200
-Subject: [PATCH 02/19] drivers: bus: mhi: force mhi stack reset when flashing
+Subject: [PATCH 02/26] drivers: bus: mhi: force mhi stack reset when flashing
  ends
 
 Once flashing in SBL through the XFP protocol ends, FN980 resets
