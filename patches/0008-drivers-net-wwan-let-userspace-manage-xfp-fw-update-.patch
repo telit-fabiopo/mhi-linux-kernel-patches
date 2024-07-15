@@ -1,4 +1,4 @@
-From dcd88ccbf557075e3beab25795879e1ea8c7dd55 Mon Sep 17 00:00:00 2001
+From eab727910743385381f9c33745123f189b42408e Mon Sep 17 00:00:00 2001
 From: Daniele Palmas <dnlplm@gmail.com>
 Date: Thu, 6 Oct 2022 09:46:46 +0200
 Subject: [PATCH 08/19] drivers: net: wwan: let userspace manage xfp fw update
@@ -42,5 +42,5 @@ index 6c8ff4fcaa7f..4e65378b0222 100644
  
  static int mhi_wwan_ctrl_tx(struct wwan_port *port, struct sk_buff *skb)
 -- 
-2.43.2
+2.45.2
 

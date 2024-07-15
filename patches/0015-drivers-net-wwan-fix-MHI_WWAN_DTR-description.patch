@@ -1,4 +1,4 @@
-From 9bea87ade4ae034d53f8b97ee94f523cdd98e5e5 Mon Sep 17 00:00:00 2001
+From 38ea5af5c12909dd8bc400d14650532879dbb554 Mon Sep 17 00:00:00 2001
 From: Daniele Palmas <dnlplm@gmail.com>
 Date: Thu, 20 Jul 2023 11:45:01 +0200
 Subject: [PATCH 15/19] drivers: net: wwan: fix MHI_WWAN_DTR description
@@ -27,5 +27,5 @@ index 861807052765..a4c7c9bf9559 100644
  config MHI_WWAN_MBIM
          tristate "MHI WWAN MBIM network driver for QCOM-based PCIe modems"
 -- 
-2.43.2
+2.45.2
 
