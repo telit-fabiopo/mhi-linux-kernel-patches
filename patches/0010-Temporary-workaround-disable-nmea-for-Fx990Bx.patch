@@ -1,0 +1,26 @@
+From 1948cdbca5f1cd27e44e9e402c5347a0542a44ad Mon Sep 17 00:00:00 2001
+From: Fabio Porcedda <fabio.porcedda@gmail.com>
+Date: Fri, 28 Mar 2025 16:50:19 +0100
+Subject: [PATCH] Temporary workaround: disable nmea for Fx990Bx
+
+Should be used instead for Fx990Axx.
+---
+ drivers/bus/mhi/host/pci_generic.c | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/drivers/bus/mhi/host/pci_generic.c b/drivers/bus/mhi/host/pci_generic.c
+index ab072dcbec38..605180c6d568 100644
+--- a/drivers/bus/mhi/host/pci_generic.c
++++ b/drivers/bus/mhi/host/pci_generic.c
+@@ -824,8 +824,6 @@ static const struct mhi_channel_config mhi_telit_fn990_channels[] = {
+ 	MHI_CHANNEL_CONFIG_DL(33, "DUN", 32, 0),
+ 	MHI_CHANNEL_CONFIG_UL(92, "DUN2", 32, 1),
+ 	MHI_CHANNEL_CONFIG_DL(93, "DUN2", 32, 1),
+-	MHI_CHANNEL_CONFIG_UL(94, "NMEA", 8, 1),
+-	MHI_CHANNEL_CONFIG_DL(95, "NMEA", 8, 1),
+ 	MHI_CHANNEL_CONFIG_HW_UL(100, "IP_HW0_MBIM", 128, 2),
+ 	MHI_CHANNEL_CONFIG_HW_DL(101, "IP_HW0_MBIM", 128, 3),
+ };
+-- 
+2.49.0
+
